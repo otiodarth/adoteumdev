@@ -11,11 +11,11 @@ O objetivo deste documento é definir claramente as áreas de responsabilidade d
 
 ## Mapa de contextos
 
-![Context mapping](artifacts/images/adoteumdev_context_mapping.png)
+![Context mapping](/artifacts/images/adoteumdev_context_mapping.png)
 
 ## Contextos Limitados
 
-![Bounded Contexts](artifacts/images/adoteumdev_bounded_context.png)
+![Bounded Contexts](/artifacts/images/adoteumdev_bounded_context.png)
 
 ## Descrição dos contextos
 
