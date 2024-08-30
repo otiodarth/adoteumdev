@@ -91,6 +91,44 @@ A plataforma precisa facilitar o processo de mentoria entre desenvolvedores e as
 - Matches devem priorizar compatibilidade em termos de habilidades e disponibilidade.
 - Feedback negativo pode levar a ajustes nos critérios de matchmaking.
 
+## Session
+
+**Espaço Problema**
+
+- Usuários precisam de uma forma eficiente de agendar, gerenciar e conduzir sessões de mentoria.
+
+**Desafio Principal**
+
+- Gerenciar as sessões de mentoria, garantindo que elas sejam organizadas, rastreadas e concluídas com sucesso, mantendo uma boa experiência para mentores e mentorados.
+
+**Problemas Específicos:**
+
+- Garantir que mentores e mentorados possam coordenar horários disponíveis para agendar as sessões.
+- Acompanhar o status das sessões (agendadas, em andamento, concluídas) de maneira eficiente.
+- Registrar as atividades durante as sessões e coletar feedback de ambos os lados para melhorar as futuras interações.
+- Lidar com cancelamentos e reagendamentos de sessões.
+
+**Espaço Solução**
+
+**Responsabilidades Principais:**
+
+- Facilitar a coordenação de horários entre mentores e mentorados, permitindo que ambos concordem com um horário mutuamente conveniente.
+- Monitorar o andamento das sessões, registrando seu progresso e conclusão.
+- Permitir que os participantes deixem comentários e avaliações após a conclusão de uma sessão.
+- Gerenciar de forma eficaz solicitações de cancelamento e reagendamento, garantindo que as regras de política sejam seguidas.
+
+**Entidades e Objetos de Valor:**
+
+- Sessão: Representa um encontro agendado entre mentor e mentorado, contendo informações como data, hora, status (agendada, em andamento, concluída), e feedback.
+- Agendamento: Entidade responsável por registrar e gerenciar a data e hora acordada para uma sessão.
+- Feedback: Um objeto de valor que armazena as avaliações e comentários dados por mentores e mentorados após a sessão.
+
+**Regras de Negócio:**
+
+- Política de Cancelamento: Definir regras claras para cancelamentos e reagendamentos, como prazos para notificações e possíveis penalidades.
+- Status de Sessão: Sessões devem ter estados claramente definidos (agendada, em andamento, concluída, cancelada), e as transições entre esses estados devem seguir regras específicas.
+- Feedback Obrigatório: Após a conclusão de cada sessão, feedback deve ser coletado de ambos os participantes para melhorar a experiência e a qualidade das mentorias futuras.
+
 ### Communication
 
 **Espaço Problema:**
@@ -282,6 +320,28 @@ Espaço Solução:
     <tr>
       <td>Evaluation</td>
       <td>Recebe feedback sobre a eficácia dos matches para ajuste contínuo.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Session</td>
+      <td rowspan="4">Desenvolver e aprimorar funcionalidades para a gestão completa de sessões de mentoria, desde o agendamento até o registro e acompanhamento.</td>
+      <td>Mentorship</td>
+      <td>Sessões fazem parte do processo de mentoria e estão diretamente ligadas às interações e avaliações entre mentores e mentorados.</td>
+    </tr>
+    <tr>
+      <td>Appointment</td>
+      <td>Interage com o sistema de agendamento para coordenar horários e disponibilidades.</td>
+    </tr>
+    <tr>
+      <td>Engagement</td>
+      <td>O sucesso e frequência das sessões podem impactar o sistema de recompensas e reconhecimento dos usuários.</td>
+    </tr>
+    <tr>
+      <td>Communication</td>
+      <td>Facilita o contato entre mentores e mentorados antes, durante, e após as sessões.</td>
+    </tr>
+     <tr>
+      <td>Evaluation</td>
+      <td>Permite que os usuários avaliem a sessão de mentoria como parte do feedback.</td>
     </tr>
     <tr>
       <td rowspan="4">Communication</td>
