@@ -6,7 +6,7 @@
 | Data de revisão | 30-08-2024                |
 | Versão          | 01                        |
 
-## Visão geral
+# Visão geral
 
 Existem três papéis principais para os usuários da plataforma: mentores, mentorados e admin. Logo, surge a questão:
 Como gerenciar os perfis de usuários de forma simplificada por se tratar de um MVP, mas ao mesmo tempo pensando em escalabilidade?
